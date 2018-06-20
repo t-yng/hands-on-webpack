@@ -1,0 +1,1 @@
+window.alert('index.jsが読み込まれたよ！')

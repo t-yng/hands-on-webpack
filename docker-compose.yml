@@ -1,0 +1,10 @@
+version: "3"
+services:
+
+  app:
+    build: ./app
+    ports:
+      - "9000:8080"
+    volumes:
+      - ./app:/app
+    command: live-server .
